@@ -1,4 +1,4 @@
-﻿using ASPNETCore30Dashboard;
+﻿using AspNetCore31Dashboard;
 using DevExpress.DashboardWeb;
 using System.Diagnostics;
 using System.Xml.Linq;

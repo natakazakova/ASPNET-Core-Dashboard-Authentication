@@ -1,8 +1,8 @@
-﻿using ASPNETCore30Dashboard.Models;
+﻿using AspNetCore31Dashboard.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace ASPNETCore30Dashboard.Controllers {
+namespace AspNetCore31Dashboard.Controllers {
     public class HomeController : Controller {
         public IActionResult Login() {
             return View();

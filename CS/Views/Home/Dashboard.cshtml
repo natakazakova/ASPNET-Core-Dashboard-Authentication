@@ -1,5 +1,6 @@
 ﻿@{
     Layout = null;
+    ViewData["Title"] = "Web Dashboard";
 }
 <!-- Add the following namespace usages: -->
 @using DevExpress.AspNetCore
@@ -16,8 +17,9 @@
     <script>
         const tokenKey = "accessToken";
 
+        // Subscribe to the onBeforeRender event and use the remote service:
         function onBeforeRender(sender) {
-            var dashboardControl = sender;
+            var dashboardControl = sender; 
 
             const token = sessionStorage.getItem(tokenKey);
 

@@ -1,4 +1,4 @@
-using ASPNETCore30Dashboard.Models;
+using AspNetCore31Dashboard.Models;
 using DevExpress.AspNetCore;
 using DevExpress.DashboardAspNetCore;
 using DevExpress.DashboardCommon;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using System;
 
-namespace ASPNETCore30Dashboard {
+namespace AspNetCore31Dashboard {
     public class Startup {
         public Startup(IConfiguration configuration, IWebHostEnvironment hostingEnvironment) {
             Configuration = configuration;

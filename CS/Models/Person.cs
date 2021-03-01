@@ -1,4 +1,4 @@
-﻿namespace ASPNETCore30Dashboard.Models {
+﻿namespace AspNetCore31Dashboard.Models {
     public class Person {
         public string Login { get; set; }
         public string Password { get; set; }
